@@ -740,7 +740,7 @@ button { font-family: inherit; cursor: pointer; }
 .story-track {
   display: flex;
   width: max-content;
-  animation: storyScroll 60s linear infinite;
+  animation: storyScroll 100s linear infinite;
 }
 
 .story-group {
