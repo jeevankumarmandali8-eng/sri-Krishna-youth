@@ -69,6 +69,18 @@
     }
   }
 
+  const ganeshaImages = [
+    "image1.png",
+    "image2.png",
+    "image3.png"
+];
+
+const heroGanesha = document.querySelector(".hero-ganesha");
+
+if (heroGanesha) {
+    const randomIndex = Math.floor(Math.random() * ganeshaImages.length);
+    heroGanesha.src = ganeshaImages[randomIndex];
+}
   spawnField("petalField", 10, function () {
     var el = document.createElement("span");
     el.className = "petal";
